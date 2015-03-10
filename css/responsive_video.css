@@ -1,0 +1,32 @@
+.contenidos{
+	max-width: 1000px;
+	margin: auto;
+}
+.columna1, .columna2{
+	width: 50%;
+	margin: auto;
+}
+
+.contenedor{
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+}
+
+.contenedor iframe,
+.contenerdor object,
+.contenedor embed,
+.contenedor video{
+	height: 100%,
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+@media screen and ( max-width: 1000px){
+	.columna1, .columna2 {
+		width: auto;
+	}
+}
