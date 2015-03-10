@@ -12,7 +12,7 @@ header{
 	position: relative;
 }
 
-.logo{
+header .logo{
 	border-right: 1px solid #3617C7;
 	float: left;
 	width: 60px;
@@ -21,10 +21,17 @@ header{
 	width: 52px;
 }
 
-.titular{
+header .titular{
 	margin: 0 80px 0 60px;
 }
 
+.titular .titulo{
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+
+}
 .titular .filtro{
 	color: skyblue;
 	text-decoration: none;
@@ -42,14 +49,8 @@ header{
 	float: right;
 	margin: -3px 2px 0 0;
 }
-.titular .titulo{
-	font-size: 18px;
-	font-weight: normal;
-	margin: 0;
-	padding: 0;
 
-}
-.usuario{
+header .usuario{
 	position: absolute;
 	top: 10px;
 	right: 10px;
