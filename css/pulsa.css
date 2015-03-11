@@ -10,6 +10,10 @@ header{
 	color: white;
 	padding: 0.5em;
 	position: relative;
+	/* me sirve para ocultar los desbordamientos de la caja, 
+	le genera una oblicagion al navegador de calcular el alto 
+	de los objetos y arregar la caja contenedora*/
+	overflow: hidden;
 }
 
 header .logo{
@@ -37,6 +41,7 @@ header .titular{
 	text-decoration: none;
 	font-size: bold;
 	font-style: italic;
+	font-size: 14px;
 }
 
 .titular .publicar{
@@ -44,7 +49,7 @@ header .titular{
 	color: white;
 	padding: 0.2em;
 	text-decoration: none;
-	font-size: italic;
+	font-style: italic;
 	text-shadow: 1px 1px 0px black;
 	float: right;
 	margin: -3px 2px 0 0;
@@ -76,5 +81,12 @@ header .usuario{
 	padding: 3px;
 }
 nav{
-	background: #3DC9DB;
+	background: #3DC9DB;	
+}
+.menu{
+	margin: 0;
+}
+/* rompiendo el nav para crear el menu*/
+.menu li{
+	display: inline-block;
 }
